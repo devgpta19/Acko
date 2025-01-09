@@ -13,34 +13,76 @@
 
 <body>
     <div class="main h-screen w-screen">
+        <div class="h-[70px] w-full px-28 py-3 bg-black">
+            <div class="navbar h-[50px] w-full flex justify-between items-center">
+                <div class="left">
+                    <div class="navigation flex gap-14 items-center">
+                        <img width="80"
+                            src="https://acko-seo-prod-assets.ackoassets.com/_next_static/images/acko-logo-dark-theme.svg"
+                            alt="Logo">
+                        <a href="#" class="text-white font-semibold" data-section="Products">Products
+                            <i class="bi bi-chevron-down"></i></a>
+                        <a href="#" class="text-white font-semibold" data-section="Renewals">Renewals
+                            <i class="bi bi-chevron-down"></i></a>
+                        <a href="#" class="text-white font-semibold" data-section="Claims">Claims <i
+                                class="bi bi-chevron-down"></i></a>
+                        <a href="#" class="text-white font-semibold" data-section="Resources">Resources
+                            <i class="bi bi-chevron-down"></i></a>
+                    </div>
+                    <div class="hidden z-10 navbar-content w-full h-[70vh] bg-white">
+
+                    </div>
+                </div>
+                <div class="right flex gap-4 p-">
+                    <button
+                        class="bg-white text-black font-bold px-5 py-3 flex items-center justify-between rounded ">Login</button>
+                    <button
+                        class="bg-green-500 text-white font-bold px-5 py-3 flex items-center justify-center rounded ">Sign
+                        Up</button>
+                </div>
+            </div>
+        </div>
+        <!-- NAVBAR CONTENT -->
+         <div class="nav-content absolute z-10 navbar-content w-full h-[75vh] bg-white flex">
+            <div class="left-navContent w-[25%] h-full border-2 border-zinc-500/20 border-solid flex flex-col gap-4 pl-28 pt-10">
+                <img width="80" src="https://acko-cms.ackoassets.com/product_image_003e621142.svg" alt="">
+                <h1 class="text-black font-bold text-3xl">Products</h1>
+                <p class="text-zinc-600 font-thin text-sm">Insurance made easy: tailor your coverage to fit your needs</p>
+            </div>
+            <div class="w-[45%] h-full px-2 pt-10">
+                <h2 class="h-[10%] text-sm uppercase text-zinc-500 font-semibold">GET COVERED FOR</h2>
+                <div class="h-[85%] flex flex-row justify-between gap-2">
+                    <div class="h-[100%] w-[50%] flex flex-col gap-4">
+                        <div class="w-[50%] bg-purple-400/20 flex item-start"><p class="text-black text-lg font-thin">Health</p></div>
+                        <div class="w-[50%] flex item-start"><p class="text-black text-lg font-thin">Car</p></div>
+                        <div class="w-[50%] flex item-start"><p class="text-black text-lg font-thin">Bike</p></div>
+                        <div class="w-[50%] flex item-start"><p class="text-black text-lg font-thin">Life</p></div>
+                        <div class="w-[50%] flex item-start"><p class="text-black text-lg font-thin">Travel</p></div>
+                    </div>
+                    <div class="h-[100%] w-[50%] flex flex-col gap-4">
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Health Insurance</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Family Health Insurance Plan</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">1 Crore Health Insurance</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Individual Health Insurance</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Arogya Sanjeevani Health Insurance</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Cashless Health Insurance</p></div>
+                        <div class="flex item-start"><p class="text-black text-lg font-thin">Parents Health Insurance</p></div>
+
+                    </div>
+                </div>           
+            </div>
+            <div class="w-[calc(100%-45%-25%)] h-full p-10 border-2 border-solid border-zinc-500/20"  >
+                <img src="https://acko-cms.ackoassets.com/Global_Nav_Header_QR_17a9abf7a0.png" alt="">
+            </div>
+         </div>
+
         <!-- PAGE 1 -->
         <div class="page1 relative h-full w-full bg-gradient-to-b from-black from-40% via-purple-900 via-70% to-black ">
             <div class="absolute inset-0 bg-transparent/10 backdrop-blur-md">
                 <div class="page1-container h-full w-full px-28 py-3 ">
-                    <div class="navbar h-[50px] w-full flex justify-between items-center">
-                        <div class="left">
-                            <div class="navigation flex gap-14 items-center">
-                                <img width="80"
-                                    src="https://acko-seo-prod-assets.ackoassets.com/_next_static/images/acko-logo-dark-theme.svg"
-                                    alt="Logo">
-                                <a href="#" class="text-white font-semibold">Products <i
-                                        class="bi bi-chevron-down"></i></a>
-                                <a href="#" class="text-white font-semibold">Renewals <i
-                                        class="bi bi-chevron-down"></i></a>
-                                <a href="#" class="text-white font-semibold">Claims <i
-                                        class="bi bi-chevron-down"></i></a>
-                                <a href="#" class="text-white font-semibold">Resources <i
-                                        class="bi bi-chevron-down"></i></a>
-                            </div>
-                        </div>
-                        <div class="right flex gap-4 p-">
-                            <button
-                                class="bg-white text-black font-bold px-5 py-3 flex items-center justify-between rounded ">Login</button>
-                            <button
-                                class="bg-green-500 text-white font-bold px-5 py-3 flex items-center justify-center rounded ">Sign
-                                Up</button>
-                        </div>
-                    </div>
+                    
+
+
 
                     <div class="Head flex mt-20 h-[500px] gap-10">
                         <div class="left-head flex flex-col justify-between p-5">
